@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  padding: 0 5%;
+  line-height: 1.4;
+}
+
+.colors {
+  padding: 2em 0;
+  overflow: hidden;
+  list-style: none;
+  text-align: center;
+}
+
+.notes li {
+  margin-bottom: 0.5em;
+}
