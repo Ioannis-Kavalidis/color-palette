@@ -1,0 +1,62 @@
+.colors-red .colors-switch {
+  background-color: #ab0520;
+}
+
+.colors-red .colors-label:before {
+  content: "#ab0520\argb(171, 5, 32)\ahsl(350, 94%, 35%)";
+}
+
+.colors-blue .colors-switch {
+  background-color: #0c234b;
+}
+
+.colors-blue .colors-label:before {
+  content: "#0c234b\argb(12, 35, 75)\ahsl(218, 72%, 17%)";
+}
+
+.colors-green .colors-switch {
+  background-color: #4a634e;
+}
+
+.colors-green .colors-label:before {
+  content: "#4a634e\argb(74, 99, 78)\ahsl(130, 14%, 34%)";
+}
+
+.colors-yellow .colors-switch {
+  background-color: yellow;
+}
+
+.colors-yellow .colors-label:before {
+  content: "#4a634e\argb(74, 99, 78)\ahsl(130, 14%, 34%)";
+}
+
+.colors-item {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin: 0 1em 1em 0;
+  background: #f1f1f1;
+  padding: 5px;
+  border: solid 1px #ddd;
+}
+
+.colors-switch {
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  margin: 0 auto;
+}
+
+.colors-label {
+  display: block;
+  color: #545454;
+  display: block;
+  padding: 5px;
+  white-space: pre;
+  text-align: left;
+}
+
+/*# sourceMappingURL=colors.css.map */
